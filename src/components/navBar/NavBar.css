@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #0dc0de;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 2px;
+}
+
+.header{
+    background: #113b49;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.links{
+    display: flex;
+}
