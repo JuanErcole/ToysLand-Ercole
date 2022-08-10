@@ -1,6 +1,7 @@
 import React from 'react'
+import CartWidget from './CartWidget/CartWidget'
 import './NavBar.css' 
-import carrito from '../../carrito.svg'
+
 
 export default function NavBar() {
   return (
@@ -12,7 +13,7 @@ export default function NavBar() {
           <li><a href="">Categorias</a></li>
           <li><a href="">Nosotros</a></li>
         </ul>
-        <img src={carrito} className='imgCarrito' alt="imagen carrito" />
+        <CartWidget/>
       </div>
 
 
