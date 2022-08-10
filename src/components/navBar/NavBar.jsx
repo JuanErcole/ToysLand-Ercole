@@ -5,7 +5,7 @@ import carrito from '../../carrito.svg'
 export default function NavBar() {
   return (
     <div className='header'> 
-      <h1>ToysLand</h1>
+      <h1 className='logo'>ToysLand</h1>
       <div className="links">
         <ul>
           <li><a href="">Inicio</a></li>
