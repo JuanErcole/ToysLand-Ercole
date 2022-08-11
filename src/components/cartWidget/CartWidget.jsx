@@ -1,4 +1,4 @@
-import carrito from '../../../carrito.svg'
+import carrito from '../../carrito.svg'
 import CartWidge from './CartWidget.css'
 
 export default function CartWidget() {
