@@ -1,5 +1,5 @@
 import carrito from '../../carrito.svg'
-import CartWidge from './CartWidget.css'
+import './CartWidget.css'
 
 export default function CartWidget() {
     return (
