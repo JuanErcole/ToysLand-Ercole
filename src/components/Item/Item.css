@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 350px;
+    min-height: 450px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 1rem;
+    box-shadow: 0 5px 11px 0px rgba(0, 0, 0, 0.458)
+}
+
+.card__img{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.card__text{
+    background: #a5dfe6;
+}
+
+.card__price{
+    color: #3d5af1;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+

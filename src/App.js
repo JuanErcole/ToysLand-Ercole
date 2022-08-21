@@ -1,7 +1,9 @@
 import './App.css';
 import NavBar from './components/navBar/NavBar';
-import {ItemListContainer} from './components/itemListContainer/itemListContainer'
+import {HeroContainer} from './components/HeroContainer/HeroContainer'
 import {ItemCount} from './components/ItemCount/ItemCount'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+
 
 function App() {
 
@@ -10,8 +12,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <ItemListContainer greeting="Bienvenido a Toysland"/>
-      <ItemCount stock={7} initial={1} onAdd={onAdd}/>
+      <HeroContainer greeting="Bienvenido a Toysland"/>
+      {/* <ItemCount stock={7} initial={1} onAdd={onAdd}/> */}
+      <ItemListContainer/>
     </div>
   );
 }

@@ -1,10 +1,13 @@
-import itemListContainer from './itemListContainer.css'
+import Item from '../Item/item'
+import datos from '../../assets/datos.json'
+import './itemList.css'
 
-function ItemListContainer({greeting}) {
+const itemListContainer = () => {
   return (
-    <div className="container">
-        <h1>{greeting}</h1>
+    <div className='itemList'>
+      {datos.map((item, index) =>( <Item {...item}/> ))}
     </div>
   )
 }
-export {ItemListContainer};
+
+export default itemListContainer
