@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepages": "http://JuanErcole.github.io/ToysLand-Ercole",
+  "homepages": "http://juanercole.github.io/ToysLand-Ercole",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
