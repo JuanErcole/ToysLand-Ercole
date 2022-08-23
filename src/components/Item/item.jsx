@@ -3,7 +3,7 @@ import './Item.css'
 
 const Item = (props) => {
   
-  const {img, title, info, price} = props;
+  const {img, title, info, price, stock} = props;
 
   console.log(img);
 
@@ -16,7 +16,8 @@ const Item = (props) => {
         <span className='card__price'>$ {price}</span>
         <p className='card__title'>{title}</p>
         <p className='card__info'>{info}</p>
-        <button className='card__btn'>Ver mas</button>
+        <p className='card__stock'>Stock: {stock}</p>
+        <button className='card__btn'>Ver producto</button>
       </div>
     </div>
   )

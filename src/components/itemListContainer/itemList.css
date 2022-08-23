@@ -1,5 +1,7 @@
 .itemList{
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
-    background: #f3f2f3;
+    gap: 1rem;
+    background: #fef4c0
 }
