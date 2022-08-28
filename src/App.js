@@ -3,7 +3,7 @@ import NavBar from './components/navBar/NavBar';
 import {HeroContainer} from './components/HeroContainer/HeroContainer'
 import {ItemCount} from './components/ItemCount/ItemCount'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       <HeroContainer greeting="Bienvenido a Toysland"/>
       {/* <ItemCount stock={7} initial={1} onAdd={onAdd}/> */}
       <ItemListContainer/>
+      {/* <ItemDetailContainer/> */}
     </div>
   );
 }

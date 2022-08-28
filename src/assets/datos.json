@@ -1,6 +1,7 @@
 
 [
     {
+    "id": 1,
     "img": "https://http2.mlstatic.com/D_NQ_NP_2X_822476-MLA48341810869_112021-F.webp",
     "title": "Señor cara de papa",
     "info": "Figura de acción Toy Story Señor Cara de Papa 27657 de Hasbro Plasyskool",
@@ -8,6 +9,7 @@
     "stock": 21
     },
     {
+    "id": 2,
     "img": "https://http2.mlstatic.com/D_NQ_NP_755240-MLA43601717601_092020-O.webp",
     "title": "Caja Registradora",
     "info": "Caja Registradora Luz Y Sonidos 16 Cm Con Carro De Super",
@@ -15,6 +17,7 @@
     "stock": 7 
     },
     {
+    "id": 2,
     "img": "https://http2.mlstatic.com/D_NQ_NP_2X_655809-MLA48578839702_122021-F.webp",
     "title": "Monster Truck",
     "info": "Monster Truck a control remoto Spin Master Monster Jam Monster Jam 1:24 Megalodon",

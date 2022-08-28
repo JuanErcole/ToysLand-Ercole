@@ -1,0 +1,30 @@
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.loader {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3d5af1;
+    animation: animate 5s;
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: scale(0); }
+    20%{
+        transform: scale(0.25); }
+    30%{
+        transform: scale(0.5); }
+    40%{
+        transform: scale(0.75); }
+    100% {
+        transform: scale(1); 
+        color: green;}
+    
+}
+

@@ -16,7 +16,7 @@ ul{
 
 li{
     list-style: none;
-    margin: 2px;
+    margin: ;
 }
 
 .header{
@@ -24,6 +24,7 @@ li{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding: 1rem;
     text-align: center;
 }
@@ -34,12 +35,10 @@ li{
 
 .links{
     display: flex;
+    align-items: baseline;
     gap: 1rem;
 }
 
-.imgCarrito{
-    margin: 2px;
-}
 
 @media (max-width: 700px){
     ul{
