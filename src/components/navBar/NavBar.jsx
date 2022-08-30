@@ -1,5 +1,6 @@
 import React from 'react'
 import CartWidget from '../cartWidget/CartWidget'
+import {NavLink} from 'react-router-dom'
 import './NavBar.css' 
 
 
@@ -9,9 +10,9 @@ export default function NavBar() {
       <h1 className='logo'>ToysLand</h1>
       <div className="links">
         <ul>
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Categorias</a></li>
-          <li><a href="">Nosotros</a></li>
+          <NavLink to={'/'}>Inicio</NavLink>
+          <NavLink to={'/productos'}>Productos</NavLink>
+          <NavLink to={'/'}>Nosotros</NavLink>
         </ul>
         <CartWidget/>
       </div>

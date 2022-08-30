@@ -55,6 +55,10 @@ img{
     margin: 0.5rem;
     padding: 5px;
     border-radius: 5px;
+}
+
+.card__btn a{
     cursor: pointer;
+
 }
 

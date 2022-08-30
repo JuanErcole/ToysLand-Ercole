@@ -3,9 +3,6 @@ import Item from '../Item/Item'
 import './ItemList.css'
 
 const ItemList = ({items}) => {
-  console.log({items})
-
-  /* const {img, price, title, info, stock} = items */
 
   
   console.log(`se cargo pero no esta listo`);
@@ -17,7 +14,6 @@ const ItemList = ({items}) => {
           <Item key={index} id={item.id} title={item.title} price={item.price} info={item.info} stock={item.stock} img={item.img}/>
         )}
       </div>
-      {/* {productos.map((item) =><Item prop={item}/>)} */}
     </>
   )
 }

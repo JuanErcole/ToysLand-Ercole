@@ -6,7 +6,8 @@
     "title": "Señor cara de papa",
     "info": "Figura de acción Toy Story Señor Cara de Papa 27657 de Hasbro Plasyskool",
     "price": 2500,
-    "stock": 21
+    "stock": 21,
+    "description": "La empresa Hasbro es la propietaria de diferentes marcas, juguetes y juegos de mesa. Desde 1923 se dedica a crear y contagiar felicidad con sus productos. Juguetes articulados. Al tener marcadas las articulaciones podrás manejar y acomodar tus figuras como más te guste. Con ellas, vas a poder crear historias en la que los personajes puedan movilizarse y cobrar vida."
     },
     {
     "id": 2,
@@ -14,15 +15,17 @@
     "title": "Caja Registradora",
     "info": "Caja Registradora Luz Y Sonidos 16 Cm Con Carro De Super",
     "price": 3800,
-    "stock": 7 
+    "stock": 7,
+    "description": "Caja Registradora Luz Y Sonidos 16 Cm Con Carro De Super. Divertite registrando tus compras de Supermercado. Contiene calculadora real desmontable. Con Luz y sonido! Contiene: *Verificador de tarjetas. *Apertura de Caja. *Accesorios de supermercado. POLITICAS DE ENTREGA: Envíos a CABA, GBA ó Interior del país a través de Mercado envíos y Mercado envios Flex. El envío es a cargo del comprador. POLÍTICA DE CAMBIOS:Para realizar un cambio se deberá presentar el ticket sin excepción. El plazo de cambio es de 30 días."
     },
     {
-    "id": 2,
+    "id": 3,
     "img": "https://http2.mlstatic.com/D_NQ_NP_2X_655809-MLA48578839702_122021-F.webp",
     "title": "Monster Truck",
     "info": "Monster Truck a control remoto Spin Master Monster Jam Monster Jam 1:24 Megalodon",
     "price": 3800,
-    "stock": 14
+    "stock": 14,
+    "description": "Este monster truck a control remoto será el juguete preferido para disfrutar dentro o fuera de casa. Divertirte, jugar carreras o inspeccionar lugares ocultos serán solo algunas de las aventuras que te esperan con este vehículo. En sus marcas, listos fuera, Con las funcionalidades que te brinda este móvil, podrás avanzar, retroceder y doblar. Solo deberás poner en marcha tu imaginación para diseñar las mejores pistas y comenzar a disfrutar. Tu vista en el objetivo. Su control remoto de diseño sencillo es sumamente fácil de manejar, lo que te permitirá accionar el vehículo de manera intuitiva. Además, tiene un alcance de 76.2 metros que te dará comodidad para conducir sin necesidad de desplazarte tanto por tu campo de juego."
     }
 ]
 

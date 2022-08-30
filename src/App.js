@@ -4,6 +4,7 @@ import {HeroContainer} from './components/HeroContainer/HeroContainer'
 import {ItemCount} from './components/ItemCount/ItemCount'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import Rutas from './routes/rutas'
 
 function App() {
 
@@ -11,10 +12,9 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar/>
-      <HeroContainer greeting="Bienvenido a Toysland"/>
+      <Rutas/>
       {/* <ItemCount stock={7} initial={1} onAdd={onAdd}/> */}
-      <ItemListContainer/>
+      {/* <ItemListContainer/> */}
       {/* <ItemDetailContainer/> */}
     </div>
   );

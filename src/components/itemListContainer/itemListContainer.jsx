@@ -14,7 +14,7 @@ const ItemListContainer = () => {
 
         setTimeout(()=>{
           resolve(datos)
-        }, 5000);
+        }, 3000);
     })
 
     consulta.then(resultado=>setProductos(resultado));
