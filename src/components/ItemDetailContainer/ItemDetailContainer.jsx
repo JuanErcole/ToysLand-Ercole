@@ -18,7 +18,7 @@ const ItemListContainer = () => {
 
         setTimeout(()=>{
           resolve(datos.find(element => element.id == id))
-        }, 5000);
+        }, 3000);
 
     }).then((data)=>{
 
@@ -29,9 +29,8 @@ const ItemListContainer = () => {
 
   return (
     <div className='itemDetailCont'>
-      itd
       {/* {productos.filter((item) => item.id === params.id) (<ItemDetail propiedades={item.id}/>)} */}
-      { Object.getOwnPropertyNames(item).length && <ItemDetail item={item}/>}
+      { /* Object.getOwnPropertyNames(item).length && */ <ItemDetail item={item}/>}
     </div>
   );
 };

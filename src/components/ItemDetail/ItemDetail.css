@@ -1,0 +1,66 @@
+.itemDetail__bg{
+    width: 100%;
+    background-color: #a5dfe6;
+}
+
+.itemDetail{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+}
+
+.itemDetail__img{
+    height: 100%;
+    width: 100%;
+}
+
+.itemDetail__text{
+    background-color: white;
+    text-align: start;
+    
+}
+
+.itemDetail__title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.itemDetail__price{
+    font-size: 2rem;
+    color: green;
+    font-weight: 800;
+}
+
+.itemDetail__info{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.itemDetail__stock{
+    text-align: center;
+}
+
+.itemDetail__description{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+@media (max-width: 960px){
+    .itemDetail{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .itemDetail__img{
+        margin: 0 auto;
+    }
+
+    .itemDetail__text{
+        text-align: center;
+    }
+}
