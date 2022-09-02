@@ -7,7 +7,8 @@
     "info": "Figura de acción Toy Story Señor Cara de Papa 27657 de Hasbro Plasyskool",
     "price": 2500,
     "stock": 21,
-    "description": "La empresa Hasbro es la propietaria de diferentes marcas, juguetes y juegos de mesa. Desde 1923 se dedica a crear y contagiar felicidad con sus productos. Juguetes articulados. Al tener marcadas las articulaciones podrás manejar y acomodar tus figuras como más te guste. Con ellas, vas a poder crear historias en la que los personajes puedan movilizarse y cobrar vida."
+    "description": "La empresa Hasbro es la propietaria de diferentes marcas, juguetes y juegos de mesa. Desde 1923 se dedica a crear y contagiar felicidad con sus productos. Juguetes articulados. Al tener marcadas las articulaciones podrás manejar y acomodar tus figuras como más te guste. Con ellas, vas a poder crear historias en la que los personajes puedan movilizarse y cobrar vida.",
+    "category":"Marvel"
     },
     {
     "id": 2,
@@ -16,7 +17,8 @@
     "info": "Caja Registradora Luz Y Sonidos 16 Cm Con Carro De Super",
     "price": 3800,
     "stock": 7,
-    "description": "Caja Registradora Luz Y Sonidos 16 Cm Con Carro De Super. Divertite registrando tus compras de Supermercado. Contiene calculadora real desmontable. Con Luz y sonido! Contiene: *Verificador de tarjetas. *Apertura de Caja. *Accesorios de supermercado. POLITICAS DE ENTREGA: Envíos a CABA, GBA ó Interior del país a través de Mercado envíos y Mercado envios Flex. El envío es a cargo del comprador. POLÍTICA DE CAMBIOS:Para realizar un cambio se deberá presentar el ticket sin excepción. El plazo de cambio es de 30 días."
+    "description": "Caja Registradora Luz Y Sonidos 16 Cm Con Carro De Super. Divertite registrando tus compras de Supermercado. Contiene calculadora real desmontable. Con Luz y sonido! Contiene: *Verificador de tarjetas. *Apertura de Caja. *Accesorios de supermercado. POLITICAS DE ENTREGA: Envíos a CABA, GBA ó Interior del país a través de Mercado envíos y Mercado envios Flex. El envío es a cargo del comprador. POLÍTICA DE CAMBIOS:Para realizar un cambio se deberá presentar el ticket sin excepción. El plazo de cambio es de 30 días.",
+    "category":"Marvel" 
     },
     {
     "id": 3,

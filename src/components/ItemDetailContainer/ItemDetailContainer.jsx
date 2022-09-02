@@ -3,7 +3,6 @@ import datos from '../../assets/datos.json'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom'
-import item from '../Item/Item';
 
 
 const ItemListContainer = () => {

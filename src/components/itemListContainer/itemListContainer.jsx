@@ -3,29 +3,33 @@ import datos from '../../assets/datos.json'
 import ItemList from '../ItemList/ItemList'
 import './itemListContainer.css'
 import {useState, useEffect} from 'react';
+import {useParams} from 'react-router-dom'
+
 
 
 const ItemListContainer = () => {
 
-  const [items, setProductos] = useState([])
+  const [items, setItems] = useState([]);
+  const {categoryid} = useParams();
 
   useEffect (()=>{
-    const consulta = new Promise ((resolve, rejected) =>{
-
+    const consulta = new Promise ((resolve) =>{
+        let datosFiltered = [];
         setTimeout(()=>{
-          resolve(datos)
+          datosFiltered = categoryid ? datos.filter(element => element.category == categoryid ) : datos;
+          resolve(datosFiltered)
         }, 3000);
     })
 
-    consulta.then(resultado=>setProductos(resultado));
+    consulta.then(resultado=>setItems(resultado));
 
-  },[]);
+  },[categoryid]);
   
   return (
     <div className='itemListContainer'>
-      {items.length < 1 
-      ? <span className="loader">Cargando</span> 
-      : <ItemList items={items} />}
+      {items.length
+      ? <ItemList items={items} /> 
+      : <span className="loader">Cargando</span>}
     </div>
   )
 }

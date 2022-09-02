@@ -5,6 +5,7 @@ import {ItemCount} from './components/ItemCount/ItemCount'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import Rutas from './routes/rutas'
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       {/* <ItemCount stock={7} initial={1} onAdd={onAdd}/> */}
       {/* <ItemListContainer/> */}
       {/* <ItemDetailContainer/> */}
+      <Footer/>
     </div>
   );
 }
