@@ -1,9 +1,15 @@
-import React from 'react'
-import {ItemCount} from '../ItemCount/ItemCount'
-import './ItemDetail.css'
+import React from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import {ItemCount} from '../ItemCount/ItemCount';
+import './ItemDetail.css';
 
 
 const ItemDetail = ({item}) =>{
+
+  const [counter, setCounter] = useState(0);
+
+  const onAdd = counter =>setCounter(counter);
   
 
   return (
@@ -18,7 +24,9 @@ const ItemDetail = ({item}) =>{
             <span className='itemDetail__price'>$ {item.price}</span>
             <p className='itemDetail__info'>{item.info}</p>
             <p className='itemDetail__stock'>Stock: {item.stock}</p>
-            <ItemCount stock={item.stock} initial={1} /* onAdd={onAdd} *//>
+            {counter 
+            ? <p className='card__btn--compra'><Link to={'/cart'}>Finalizar compra</Link></p> :
+            <ItemCount stock={item.stock} initial={1} onAdd={onAdd}/>}
             <p className='itemDetail__description'>{item.description}</p>
          </div>
         </div>

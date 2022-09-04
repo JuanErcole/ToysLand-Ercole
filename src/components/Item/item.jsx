@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Item.css'
 
-const item = ({img, price, title, info, stock,id}) => {
+const item = ({ img, price, title, info, stock, id }) => {
   return (    
     <div className='card'>
       <div className="card__img">

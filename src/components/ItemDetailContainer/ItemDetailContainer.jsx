@@ -7,9 +7,9 @@ import {useParams} from 'react-router-dom'
 
 const ItemListContainer = () => {
 
-  const {id} =  useParams()
+  const {id} =  useParams();
 
-  const [item, setItem] = useState([])
+  const [item, setItem] = useState([]);
 
   useEffect (()=>{
     console.log(id)
@@ -28,8 +28,7 @@ const ItemListContainer = () => {
 
   return (
     <div className='itemDetailCont'>
-      {/* {productos.filter((item) => item.id === params.id) (<ItemDetail propiedades={item.id}/>)} */}
-      { /* Object.getOwnPropertyNames(item).length && */ <ItemDetail item={item}/>}
+      { <ItemDetail item={item}/> }
     </div>
   );
 };

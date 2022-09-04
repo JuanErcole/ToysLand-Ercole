@@ -5,8 +5,9 @@
     padding: 1rem;
     flex-direction: column;
     max-width: 250px;
-    border: 2px rgba(0, 0, 0, 0.539) solid; /*borrar*/
+    border: 1px rgba(0, 0, 0, 0.539) solid; /*borrar*/
     border-radius: 3px;
+    box-shadow: 0 5px 11px 0px rgba(0, 0, 0, 0.458)
 }
 
 .counter__buttons{
@@ -41,6 +42,6 @@
 }
 
 .button__carrito:active{
-    background-color: #0dc0de;
+    background-color: white;
 }
 
