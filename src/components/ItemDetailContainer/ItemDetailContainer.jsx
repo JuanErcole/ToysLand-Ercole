@@ -17,7 +17,7 @@ const ItemListContainer = () => {
 
         setTimeout(()=>{
           resolve(datos.find(element => element.id == id))
-        }, 3000);
+        }, 1000);
 
     }).then((data)=>{
 

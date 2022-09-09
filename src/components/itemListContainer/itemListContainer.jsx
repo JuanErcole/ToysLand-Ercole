@@ -18,7 +18,7 @@ const ItemListContainer = () => {
         setTimeout(()=>{
           datosFiltered = categoryid ? datos.filter(element => element.category == categoryid ) : datos;
           resolve(datosFiltered)
-        }, 3000);
+        }, 2000);
     })
 
     consulta.then(resultado=>setItems(resultado));
