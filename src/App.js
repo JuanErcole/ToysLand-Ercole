@@ -1,7 +1,7 @@
 import './App.css';
 import Rutas from './routes/rutas'
 import Footer from './components/Footer/Footer';
-import { CartProvider } from './contex/CartContext';
+import { CartProvider, GlobalProvider } from './contex/GlobalProvider';
 
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <CartProvider>
+      <GlobalProvider>
         <Rutas/>
-      </CartProvider>
+      </GlobalProvider>
       <Footer/>
     </div>
   );

@@ -3,7 +3,7 @@ import { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import {ItemCount} from '../ItemCount/ItemCount';
 import './ItemDetail.css';
-import { CartContext } from '../../contex/CartContext';
+import { CartContext } from '../../contex/GlobalProvider';
 
 
 const ItemDetail = ({item}) =>{
@@ -15,7 +15,7 @@ const ItemDetail = ({item}) =>{
     setCounter(count);
 
     addItems(item, count)
-  }
+  };
   
 
   return (

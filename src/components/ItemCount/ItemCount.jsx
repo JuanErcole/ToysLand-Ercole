@@ -7,11 +7,11 @@ export const ItemCount = ({stock, initial, onAdd}) => {
 
     const aumentarCont = () =>{
         if(counter < stock) setCounter(counter + 1);
-    }
+    };
 
     const descontarCont = () =>{
         if(counter > 1) setCounter(counter - 1);
-    }
+    };
 
   return (
     <div className='counter'>
