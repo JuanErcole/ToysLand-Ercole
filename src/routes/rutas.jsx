@@ -5,6 +5,7 @@ import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailCon
 import NavBar from '../components/navBar/NavBar';
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
 import { Cart } from '../components/cart/Cart';
+import { Nosotros } from '../components/Nosotros/Nosotros';
 
 
 const rutas = () => {
@@ -17,6 +18,7 @@ const rutas = () => {
         <Route path='/Item/:id' element={<ItemDetailContainer/>}/>
         <Route path='/category/:categoryid' element={<ItemListContainer/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/nosotros' element={<Nosotros/>}/>
       </Routes>
     </BrowserRouter>
   )

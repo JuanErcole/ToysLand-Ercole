@@ -1,0 +1,19 @@
+.cart__container--buttonDelete{
+    background: #041721;
+    color: #a5dfe6;
+    margin: 0.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart__container--buttonPay{
+    width: 100px;
+    background: green;
+    border: solid green;
+    color: white;
+    font-weight: 700;
+    margin: 0.5rem;
+    padding: 5px;
+    cursor: pointer;
+}

@@ -12,9 +12,9 @@ export default function NavBar() {
         <ul>
           <NavLink to={'/'}>Inicio</NavLink>
           <NavLink to={'/productos'}>Productos</NavLink>
-          <NavLink to={'/'}>Nosotros</NavLink>
+          <NavLink to={'/nosotros'}>Nosotros</NavLink>
         </ul>
-        <CartWidget/>
+        <CartWidget/> 
       </div>
 
 

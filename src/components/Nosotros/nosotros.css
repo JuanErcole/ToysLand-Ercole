@@ -1,0 +1,12 @@
+.nosotros__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}

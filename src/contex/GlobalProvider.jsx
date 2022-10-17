@@ -18,7 +18,7 @@ export function GlobalProvider({children}){
       setItems([...product, {...item, quantity}])
     }else {
 
-      setItems([...item, {...item, quantity}])
+      setItems([...item, {item, quantity}])
     };
   };
 
